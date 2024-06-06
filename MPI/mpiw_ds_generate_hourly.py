@@ -49,7 +49,7 @@ if __name__ == '__main__':
         mpi_wth_hourly_df[column] = mpi_hourly_df[column].round(2)
     print(mpi_wth_hourly_df)
 
-    mpi_wth_hourly_df.drop(columns=['date', 'hour']).to_csv(os.path.join(
+    mpi_wth_hourly_df.drop(columns=['date', 'hour']).round(2).to_csv(os.path.join(
         "revised_datasets/", "MPIW_1H_4Y_R.csv"), index=False)
 
     print(mpi_wth_hourly_df[mpi_wth_hourly_df['datetime'] == datetime.datetime(2022, 1, 1, 0, 0)])
