@@ -4,15 +4,15 @@ Submited to: NeurISP 2024 Dataset and Benchmark Track
 ## Content
 
 ### Electricity Load Diagrams
- * [ ] Code to analyze different version of the dataset
+ * [x] Code to analyze different version of the dataset
    * Raw: 370 clients /// 15-minute resolution
    * ECL: 321 clients /// 1-hour resolution 
- * [ ] Code to plot client with unusual patterns and create new dataset version
+ * [x] Code to plot client with unusual patterns and create new dataset version
    * PELD_1H_3Y_308: 308 clients /// 1-hour resolution
  * [x] Cycle-inclusive splits dataloader
- * [ ] CSV file:
+ * [x] CSV file:
    * PELD_1H_3Y_308.csv
- * [ ] Various plots of the data
+ * [x] Various plots of the data
  * [x] Markdown files with experiment results
 
 ### Local Climatological Data
