@@ -16,19 +16,18 @@ Submited to: NeurISP 2024 Dataset and Benchmark Track
  * [x] Markdown files with experiment results
 
 ### Local Climatological Data
- * [ ] Code to analyze version from Informer paper
+ * [x] Code to analyze version from Informer paper and identify inconsistencies
    * Weather: 12 indicators /// 1-hour resolution
- * [ ] Code to identify and correct inconsistencies
-   * LCDW_1H_4Y_USUNK: 12 indicators + 2 revised indicators + 6 identifiers /// 1-hour resolution
-   * LCDWf_1H_4Y_USUNK: 11 indicators + WetBulbCelsius + 6 indicators
-   * LCDWi_1H_4Y_USUNK: 11 indicators + WetBulbCelsiusInt + 6 indicators
-   * LCDWr_1H_4Y_USUNK: 11 indicators + RealWetBulbCelsius + 6 indicators
+ * [x] Code to correct inconsistencies
+   * LCDWf_1H_4Y_USUNK: 11 indicators + WetBulbCelsius + 6 error identifiers
+   * LCDWi_1H_4Y_USUNK: 11 indicators + WetBulbCelsiusInt + 6 error identifiers
+   * LCDWr_1H_4Y_USUNK: 11 indicators + RealWetBulbCelsius + 6 error identifiers
  * [x] Cycle-inclusive splits dataloader
- * [ ] CSV files:
+ * [x] CSV files:
    * LCDWf_1H_4Y_USUNK.csv
    * LCDWi_1H_4Y_USUNK.csv
    * LCDWr_1H_4Y_USUNK.csv
- * [ ] Various plots of the data
+ * [x] Various plots of the data
  * [x] Markdown files with experiment results
 
 ### Max-Planck Institute for Biogeochemistry 
@@ -36,7 +35,7 @@ Submited to: NeurISP 2024 Dataset and Benchmark Track
    * Raw: 21 indicators /// 10-minute resolution
    * Weather: 21 indicators /// 10-minute resolution
  * [x] Code to identify and correct inconsistencies
-   * MPIW_10T_1Y_R: 21 indicators + 3 identifiers /// 10-minute resolution
+   * MPIW_10T_1Y_R: 21 indicators + 5 identifiers /// 10-minute resolution
  * [x] Code to generate 4-year period dataset
    * MPIW_10T_4Y_R: 21 indicators + 6 identifiers /// 10-minute resolution
  * [x] Code to create 4-year hourly version
