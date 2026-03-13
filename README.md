@@ -1,5 +1,5 @@
-# Repository of the paper: Ensuring Fair Comparisons in Time Series Forecasting: Addressing Quality Issues in Three Benchmark Datasets
-Submited to: NeurISP 2024 Dataset and Benchmark Track
+# Repository of the paper: Benchmark Datasets Under the Microscope: Diagnosing Data Quality and Temporal Splits for Multivariate Time Series Forecasting
+Submited to: ECMLPKDD 2026 Applied Data Science Track
 
 ## Content
 
